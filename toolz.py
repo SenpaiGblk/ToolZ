@@ -243,7 +243,6 @@ class zsh:
 	print(zshlogo)
 	print('\33[1m' + '''   \33[91m[ \33[97m1 \33[91m]\33[97m\33[97m Install zsh prompt
    \33[91m[ \33[97m2 \33[91m]\33[97m\33[97m Install zsh
-   \33[91m[ \33[97m1 \33[91m]\33[97m\33[97m Edit zsh
 
     \33[91m(\33[97m0\33[91m)\33[97m Back to menu
 	''')
@@ -253,8 +252,6 @@ class zsh:
 		zshprompt()
 	elif choice3 == "2":
 		installzsh()
-	elif choice3 == "3":
-		os.system('nano /data/data/com.termux/files/home/.zshrc')
 	elif choice3 == "0":
 		toolz()
 	else:
