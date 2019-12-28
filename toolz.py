@@ -90,17 +90,6 @@ keyshortcutlogo = '\33[91m' + '''
    `--- ---'
 ''' '\33[0m'
 
-updatelogo = '\33[91m' + '''
-
-    ___ ___          __       __
-   |   Y   .-----.--|  .---.-|  |_.-----.
-   |.  |   |  _  |  _  |  _  |   _|  -__|
-   |.  |   |   __|_____|___._|____|_____|
-   |:  1   |__|
-\33[97m   |::.. . |
-   `-------'
-''' '\33[0m'
-
 backtomenulogo = '\33[1m' +  '''
 
    \33[91m(\33[97mB\33[91m)\33[97m Back to menu
@@ -200,8 +189,7 @@ class toolz:
    \33[91m[ \33[97m2 \33[91m]\33[97m Show zsh
    \33[91m[ \33[97m3 \33[91m]\33[97m Show app
    \33[91m[ \33[97m4 \33[91m]\33[97m Termux keys shortcut
-
-    \33[91m(\33[97mU\33[91m)\33[97m Update ToolZ
+   
     \33[91m(\33[97mE\33[91m)\33[97m for \33[41mexit\33[0m
 	''')
 	choice1 = raw_input(prompt)
@@ -214,8 +202,6 @@ class toolz:
 		app()
 	elif choice1 == "4":
 		keyshortcut()
-	elif choice1 == "U":
-		update()
 	elif choice1 == "E":
 		sys.exit()
         else:
