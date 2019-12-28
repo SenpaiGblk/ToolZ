@@ -387,11 +387,7 @@ class keyshortcut:
 		os.system('termux-reload-settings')
 		print(a+'[!] Successfully !! ^^'+c+'\n\nhubungi https://t.me/om_karjok untuk requests\natau pertanyaan, atau hubungi https://t.me/CRABS_ID\nThanks :*\n\n')
 		sleep(2)
-	elif yn2 == "b" or yn2 == "B":
-		toolz()
-	else:
-	    print(wronginput)
-            keyshortcut()
+                backto2()
 
 #...................#
 
@@ -406,6 +402,8 @@ def powerlevel10k():
 	print(done)
 	print('prompt> ZSH_THEME="powerlevel10k/powerlevel10k"')
 	backto3()
+class update:
+	os.system("git clone --depth=1 https://github.com/SenpaiGblk/ToolZ")
 
 #...................#
 
