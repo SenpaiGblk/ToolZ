@@ -4,4 +4,3 @@ clear
    pip install gitpython
     chmod 777 toolz.py
      rm -rf install.sh
-      ./toolz.py
